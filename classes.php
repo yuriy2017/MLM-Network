@@ -1,12 +1,13 @@
 <?php
 
 //Properties correspond to database fields
-class Clients
+class Client
 {
+    public $id;
     public $Sponsor;
     public $Username;
+    public $Last_name;
     public $Email; 
-    public $Last_name; 
     public $Select_country; 
     public $City; 
     public $Adress; 
@@ -17,16 +18,16 @@ class Clients
     public $Gender;
  
  //Empty constructor, where properties will be initialized
-    function__construct()
-    {
+    //function__construct()
+    //{
     	
-    }
+   // }
 }
 
 /**Network holder (owner) Jan P
 * 
 */
-class JanP extends Clients
+class JanP extends Client
 {
 	
 
@@ -54,11 +55,11 @@ class JanP extends Clients
         
     }
 // future additional functions
-    public function add_function1
+    public function add_function1()
     {
 
     }    
-    public function add_function2
+    public function add_function2()
     {
     	echo '<br> Это Жан';
     } 
@@ -73,7 +74,7 @@ class JanP extends Clients
 /*Sub network holders: Mira P
 * And Agnieshka Manager
 */
-class FirstLine extends Clients
+class FirstLine extends Client
 {
 	
 
@@ -101,11 +102,11 @@ class FirstLine extends Clients
         
     }
 //future additional functions
-    public function add_function1
+    public function add_function1()
     {
 
     }    
-    public function add_function2
+    public function add_function2()
     {
     	echo '<br> Это FirstLine';
     } 
@@ -119,7 +120,7 @@ class FirstLine extends Clients
 /*Second line network: Office Manager
 * And Ganesh and Maciej
 */
-class SecondLine extends Clients
+class SecondLine extends Client
 {
 	
 
@@ -147,11 +148,11 @@ class SecondLine extends Clients
 
     }
 //future additional functions
-    public function add_function1
+    public function add_function1()
     {
 
     }    
-    public function add_function2
+    public function add_function2()
     {
     	echo '<br> Это SecondLine';
     } 
@@ -165,7 +166,7 @@ class SecondLine extends Clients
 /*Third line network: ... 
 * ......
 */
-class SomeClient extends Clients
+class SomeClient extends Client
 {
 	
 
@@ -193,11 +194,11 @@ class SomeClient extends Clients
 
     }
 //future additional functions
-    public function add_function1
+    public function add_function1()
     {
 
     }    
-    public function add_function2
+    public function add_function2()
     {
     	echo '<br> Это SomeClient';
     } 

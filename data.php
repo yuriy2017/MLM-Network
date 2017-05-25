@@ -5,7 +5,16 @@
 require_once 'classes.php';
 
 //Declare an array in which there will be customers
-$clients = array();
+
+
+$clients = array ();
+
+$clients[] = new Clients;
+$clients[] = new Clients;
+$clients[] = new Clients;
+
+echo '<pre>';
+print_r($clints);
 
 //Create several instances of our clients class from classes.php
 // which come in either one duble or several MySql
