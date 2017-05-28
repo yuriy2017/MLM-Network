@@ -4,18 +4,18 @@
 class Client
 {
     public $id;
-    public $Sponsor;
-    public $Username;
-    public $Last_name;
-    public $Email; 
-    public $Select_country; 
-    public $City; 
-    public $Adress; 
-    public $Zip_Code_Postal_Code;
-    public $Area_Code; 
-    public $Phone;
-    public $Company; 
-    public $Gender;
+    public $sponsor;
+    public $firstname;
+    public $lastname;
+    public $email; 
+    public $celect_country; 
+    public $city; 
+    public $adress; 
+    public $zip_code_postal_code;
+    public $area_code; 
+    public $phone;
+    public $company; 
+    public $gender;
  
  //Empty constructor, where properties will be initialized
     //function__construct()
